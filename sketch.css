@@ -1,0 +1,52 @@
+#sketch-space{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 70vh;
+    width: 70vh;
+    margin: 0 auto;
+
+}
+
+.grid-square {
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.black {
+    background-color: black;
+}
+.darken0{
+    background-color: hsl(0, 1%, 0%);
+}
+.darken10{
+    background-color: hsl(0, 1%, 10%);
+}
+.darken20{
+    background-color: hsl(0, 1%, 20%);
+}
+.darken30{
+    background-color: hsl(0, 1%, 30%);
+}
+.darken40{
+    background-color: hsl(0, 1%, 40%);
+}
+.darken50{
+    background-color: hsl(0, 1%, 50%);
+}
+.darken60{
+    background-color: hsl(0, 1%, 60%);
+}
+.darken70{
+    background-color: hsl(0, 1%, 70%);
+}
+.darken80{
+    background-color: hsl(0, 1%, 80%);
+}
+.darken90{
+    background-color: hsl(0, 1%, 90%);
+}
+.darken100{
+    background-color: hsl(0, 1%, 100%);
+}

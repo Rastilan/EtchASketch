@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./sketch.js" defer></script>
+    <link rel="stylesheet" href="sketch.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id="sketch-space">
+        
+    </div>
+    <button onclick="BlackColor()">Black</button>
+    <button onclick="DarkenColor()">Darken</button>
+    <button onclick="RainbowColor()">Rainbow</button>
+    <form id="gridsizeform" action="/action_page.php">
+        X: <input type="text" id="xform" name="xform"><br>
+        Y: <input type="text" id="yform" name="yform"><br><br>
+        <input type="button" onclick="RecreateGrid()" value="Create Grid">
+      </form>
+</body>
+</html>
