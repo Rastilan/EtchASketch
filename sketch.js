@@ -94,8 +94,11 @@ function ChangeGridSize() {
 }
 
 function RecreateGrid(){
-    if(isNaN(document.getElementById('xform').value) ? x = document.getElementById('xform').value : x = 16);
-    if(isNaN(document.getElementById('yform').value) ? y = document.getElementById('yform').value : y = 16);
+    x = document.getElementById('xform').value;
+    y = document.getElementById('yform').value;
+    (x < 1) ? x = 16 : x = x;
+    (y < 1) ? y = 16 : y = y;
+    
     while (container.firstChild) {
         container.removeChild(container.firstChild);
         
